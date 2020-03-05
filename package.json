@@ -4,6 +4,7 @@
   "description": "This App generates random algorithm problems",
   "main": "src/app.js",
   "scripts": {
+    "js-algorithm-problem-generator": "node src/app.js",
     "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
