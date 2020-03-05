@@ -1,0 +1,31 @@
+[
+  {
+    "id": 0,
+    "name": "Thinkful - Number Drills: Blue and red marbles",
+    "description": "You and a friend have decided to play a game to drill your statistical intuitions. The game works like this: \nYou have a bunch of red and blue marbles.To start the game you grab a handful of marbles of each color and put them into the bag, keeping track of how many of each color go in .You take turns reaching into the bag, guessing a color, and then pulling one marble out.You get a point\nif you guessed correctly.The trick is you only have three seconds to make your guess, so you have to think quickly.\nYou 've decided to write a function, guessBlue() to help automatically calculate whether you should guess 'blue' or 'red'. The function should take four arguments:\nthe number of blue marbles you put in the bag to start the number of red marbles you put in the bag to start the number of blue marbles pulled out so far, and the number of red marbles pulled out so far.\n guessBlue() should return the probability of drawing a blue marble, expressed as a float.For example, guessBlue(5, 5, 2, 3) should return 0.6.",
+    "rank": 8
+  },
+  {
+    "id": 1,
+    "name": "Will you make it?",
+    "description": "You were camping with your friends far away from home, but when it's time to go back, you realize that you fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left. Considering these factors, write a function that tells you if it is possible to get to the pump or not. Function should return true (1 in Prolog) if it is possible and false (0 in Prolog) if not. The input values are always positive.",
+    "rank": 8
+  },
+  {
+    "id": 2,
+    "name": "Grade book",
+    "description": "Complete the function so that it finds the mean of the three scores passed to it and returns the letter value associated with that grade.\nNumerical Score\t Letter Grade\n90 <= score <= 100\t 'A'\n80 <= score < 90\t 'B'\n70 <= score < 80\t 'C'\n60 <= score < 70\t 'D'\n0 <= score < 60\t 'F'\nTested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.",
+    "rank": 8
+  },
+  {
+    "id": 3,
+    "name": "Sum of Minimums!",
+    "description": "Given a 2D array of size m * n. Your task is to find the sum of minimum value in each row. For example\n[\n\t[1,2,3,4,5] // should return 1,\n\t[5,6,7,8,9] // should return 5,\n\t[20,21,34,56,100] // should return 20\n]\nSo, the function should return 26 because sum of minimums is as 1 + 5 + 20 = 26\nNote: You will be always given non - empty array containing Positive values.",
+    "rank": 7
+  }, {
+    "id": 4,
+    "name": "Multiples of 3 and 5",
+    "description": "If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.\nFind the sum of all the multiples of 3 or 5 below 1000.",
+    "rank": 7
+  }
+]
