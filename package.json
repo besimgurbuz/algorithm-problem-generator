@@ -12,10 +12,5 @@
     "type": "git",
     "url": "git+https://github.com/besimgurbuz/js-algorithm-problem-generator.git"
   },
-  "author": "Besim Gurbuz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/besimgurbuz/js-algorithm-problem-generator/issues"
-  },
-  "homepage": "https://github.com/besimgurbuz/js-algorithm-problem-generator#readme"
+  "author": "Besim Gurbuz"
 }
