@@ -12,7 +12,7 @@ ${randomProblem.description}
 This problems rank is ${randomProblem.rank}
 And do not forget JavaScript is the best!
 - Besim
-`
+`;
 
 fs.writeFile('your_problem_dear_padawan.txt', content, (err) => {
   if (err) {
