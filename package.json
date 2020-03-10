@@ -1,16 +1,26 @@
 {
-  "name": "js-algorithm-problem-generator",
-  "version": "1.0.0",
+  "name": "algorithm-problem-generator",
+  "version": "1.0.2",
   "description": "This App generates random algorithm problems",
+  "keywords": [
+    "algorithm",
+    "problem-generator"
+  ],
   "main": "src/app.js",
   "scripts": {
-    "js-algorithm-problem-generator": "node src/app.js",
-    "start": "node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "algorithm-problem-generator": "node src/app.js",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/besimgurbuz/js-algorithm-problem-generator.git"
   },
-  "author": "Besim Gurbuz"
+  "author": {
+    "name": "Besim Gurbuz",
+    "email": "mbesimgurbuz@gmail.com",
+    "url": "http://besimgurbuz.com"
+  },
+  "bin": {
+    "algorithm-problem-generator": "./src/app.js"
+  }
 }

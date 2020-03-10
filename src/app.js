@@ -18,5 +18,5 @@ fs.writeFile('your_problem_dear_padawan.txt', content, (err) => {
   if (err) {
     throw err;    
   }
-  console.log('Your problem is ready to solve! Check your current working directory. 📁');
+  console.log('Your problem is ready to solve! Check your current working directory.');
 });
