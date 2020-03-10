@@ -1,10 +1,20 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const problems = require('./problems.json');
+
+const [,, ...args] = process.argv;
 
 const random = Math.floor(Math.random() * problems.length);
 const randomProblem = problems[random];
 
-const content = `Your problem is below, may the force be with you padawan!
+let name = '';
+
+if (args.length === 1 && typeof args[0] === 'string') {
+  name = args[0];
+}
+
+const content = `Your problem is below, may the force be with you padawan ${name}!
 - Problem Name: ${randomProblem.name}
 
 ${randomProblem.description}
